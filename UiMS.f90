@@ -1,0 +1,8 @@
+	SUBROUTINE UiMS(K,UMS)
+! input : k
+! output : ums
+
+		DOUBLEPRECISION K,UMS
+		UMS=2.D0/3.D0*K
+
+	END SUBROUTINE UiMS
